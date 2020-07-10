@@ -1,0 +1,73 @@
+#jeu {
+	text-align: center;
+}
+#carte {
+	border: 4mm ridge rgba(170, 50, 220, .6);
+	border: 4mm ridge rgb(116, 81, 235);
+	display: inline-block;
+	background-color: yellow;
+}
+
+.cell {
+	margin: 2px;
+	padding: 2px;
+
+	display: inline-block;
+
+	border-width: 3px;
+	border-style: solid;
+	border-color: crimson;
+	border-radius: 50%;
+
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
+
+#joueur0 div, #joueur1 div {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px;
+}
+.info {
+	width: 50%;
+}
+.image {
+	width: 25%;
+}
+.image img {
+	width: 100%;
+}
+
+#arme0, #arme1 {
+	text-align: right;
+}
+
+#message {
+	text-align: center;
+}
+
+.mur {
+	background-color: black;
+	border-color: black;
+}
+
+.select, .active {
+	border-width: 3px;
+	border-style: solid;
+	border-color: blue;
+}
+.acces {
+	border-style: dashed;
+	border-color: green;
+}
+
+.arme {
+	*background-color: blue;
+	border-color: orange;
+}
+
+.btn-block {
+	margin: .5rem 0;
+}

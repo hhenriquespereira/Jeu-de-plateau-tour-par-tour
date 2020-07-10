@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content>
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Jeu de plateau tour par tour · OpenClassrooms</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" href="./bootstrap/fav-icon.png">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./bootstrap/form-validation.css">
+    <link rel="stylesheet" href="./css/style.css" />
+
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="./bootstrap/fav-icon.png" width="72" height="72">
+        <h1>Jeu de plateau tour par tour</h1>
+        <p class="lead">Objectif : créer un jeu de rôle au tour par tour sur un même navigateur. Les deux joueurs pourront se déplacer sur une carte et se battre entre eux lorsqu'ils se croisent.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 order-md-2">
+          <div>
+            <div id="joueur0">
+              <div class="image"><img id="logo0" /></div><!--
+              --><div class="info">
+                <h2 id="nom0"></h2>
+                <p id="points0"></p>
+                <p id="arme0"></p>
+              </div><!--
+              --><div class="image"><img id="arme-0" /></div>
+            </div>
+            <div id="joueur1">
+              <div class="image"><img id="logo1" /></div><!--
+              --><div class="info">
+                <h2 id="nom1"></h2>
+                <p id="points1"></p>
+                <p id="arme1"></p>
+              </div><!--
+              --><div class="image"><img id="arme-1" /></div>
+            </div>
+          </div>
+          <div id="inter"></div>
+          <div><h4 id="message"></h4></div>
+        </div>
+
+        <div class="col-md-8 order-md-1">
+          <div id="jeu"></div>
+        </div>
+      </div>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2020 Hervé PEREIRA</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="http://www.herve-pereira.fr/">Hervé PEREIRA</a></li>
+          <li class="list-inline-item"><a href="https://openclassrooms.com/">OpenClassrooms</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./bootstrap/jquery-3.4.1.slim.min.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/class/jeu.class.js"></script>
+    <script src="./js/class/carte.class.js"></script>
+    <script src="./js/class/mur.class.js"></script>
+    <script src="./js/class/arme.class.js"></script>
+    <script src="./js/class/joueur.class.js"></script>
+
+    <script src="./js/fonction.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
